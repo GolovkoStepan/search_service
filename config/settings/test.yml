@@ -1,0 +1,6 @@
+wildberries_api:
+  url: https://example.org
+  search_path: /search
+
+daily_data_load:
+  max_pages_to_search: 1

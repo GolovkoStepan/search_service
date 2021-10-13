@@ -1,0 +1,229 @@
+{
+  "state": 0,
+  "data": {
+    "isLanding": false,
+    "products": [
+      16865237,
+      16865235,
+      16865233,
+      10051592,
+      16865242,
+      16865236,
+      12403168,
+      16865245,
+      16865238,
+      16865243,
+      12403170,
+      16865244,
+      11206279,
+      16865234,
+      12403169,
+      11759779,
+      17724719,
+      21576667,
+      11206280,
+      25582007,
+      11759780,
+      17724721,
+      21279224,
+      17724717,
+      18509615,
+      8272574,
+      9437171,
+      19063067,
+      7200324,
+      19952335,
+      17724720,
+      8455574,
+      25681980,
+      9437149,
+      8455573,
+      13693693,
+      17724718,
+      13693694,
+      9437179,
+      18265495,
+      25681979,
+      18821107,
+      18163520,
+      36235738,
+      19063068,
+      25681982,
+      19952331,
+      35828837,
+      19436944,
+      19686776,
+      35818566,
+      12399918,
+      25877643,
+      38728527,
+      19896912,
+      8455571,
+      15008291,
+      26324049,
+      19436943,
+      38332386,
+      25681978,
+      8455572,
+      15670817,
+      16443642,
+      29457712,
+      12399913,
+      26324050,
+      19436946,
+      8771275,
+      18837141,
+      35506118,
+      37808152,
+      25961665,
+      17068529,
+      19436945,
+      14192830,
+      19898585,
+      41004019,
+      26558705,
+      9437143,
+      14192829,
+      21652287,
+      24716985,
+      12403167,
+      12776760,
+      19436948,
+      9437208,
+      33494089,
+      43532682,
+      17082815,
+      9437172,
+      9437147,
+      23857633,
+      21459703,
+      16440520,
+      28957563,
+      18197159,
+      27557299,
+      10079917,
+      41041048,
+      25681977,
+      32356333,
+      25832871,
+      10079886,
+      37125854,
+      18821110,
+      40715873,
+      12506998,
+      10395512,
+      13773667
+    ],
+    "pager": {
+      "currentPage": 1,
+      "totalItems": 2793,
+      "totalPages": 28,
+      "pageSize": 100
+    },
+    "sorter": {
+      "currentSort": "По популярности",
+      "sortings": [
+        {
+          "href": "/api/search/results?search=macbook&pagesize=100&sort=popular",
+          "value": "По популярности"
+        },
+        {
+          "href": "/api/search/results?search=macbook&pagesize=100&sort=rate",
+          "value": "По рейтингу"
+        },
+        {
+          "href": "/api/search/results?search=macbook&pagesize=100&sort=priceup",
+          "value": "По цене min"
+        },
+        {
+          "href": "/api/search/results?search=macbook&pagesize=100&sort=sale",
+          "value": "По скидке"
+        },
+        {
+          "href": "/api/search/results?search=macbook&pagesize=100&sort=newly",
+          "value": "По обновлению"
+        },
+        {
+          "href": "/api/search/results?search=macbook&pagesize=100&sort=pricedown",
+          "value": "По цене max"
+        }
+      ]
+    },
+    "filtersUrl": "/api/search/extfilters?search=macbook",
+    "filterSelected": false,
+    "breadCrumbs": [],
+    "currentMenu": [
+      {
+        "name": "Автоэлектроника",
+        "url": "/api/search/results?search=macbook&subject=6240&sort=popular",
+        "urlType": "catalog",
+        "id": 6240
+      },
+      {
+        "name": "Аксессуары",
+        "url": "/api/search/results?search=macbook&subject=3&sort=popular",
+        "urlType": "catalog",
+        "id": 3
+      },
+      {
+        "name": "Книжная продукция и диски",
+        "url": "/api/search/results?search=macbook&subject=786&sort=popular",
+        "urlType": "catalog",
+        "id": 786
+      },
+      {
+        "name": "Ноутбуки и компьютеры",
+        "url": "/api/search/results?search=macbook&subject=6238&sort=popular",
+        "urlType": "catalog",
+        "id": 6238
+      },
+      {
+        "name": "Периферия и аксессуары",
+        "url": "/api/search/results?search=macbook&subject=6237&sort=popular",
+        "urlType": "catalog",
+        "id": 6237
+      },
+      {
+        "name": "Смартфоны и аксессуары",
+        "url": "/api/search/results?search=macbook&subject=6258&sort=popular",
+        "urlType": "catalog",
+        "id": 6258
+      },
+      {
+        "name": "Строительные инструменты",
+        "url": "/api/search/results?search=macbook&subject=1162&sort=popular",
+        "urlType": "catalog",
+        "id": 1162
+      },
+      {
+        "name": "Телевизоры и аудиотехника",
+        "url": "/api/search/results?search=macbook&subject=6260&sort=popular",
+        "urlType": "catalog",
+        "id": 6260
+      },
+      {
+        "name": "Хозяйственные товары",
+        "url": "/api/search/results?search=macbook&subject=1077&sort=popular",
+        "urlType": "catalog",
+        "id": 1077
+      },
+      {
+        "name": "Электроника",
+        "url": "/api/search/results?search=macbook&subject=479&sort=popular",
+        "urlType": "catalog",
+        "id": 479
+      }
+    ],
+    "elasticFilters": false,
+    "actions": [
+      {
+        "action": 1200,
+        "name": "Фильтры",
+        "method": "POST",
+        "url": "/api/search/extfilters?search=macbook",
+        "formName": ""
+      }
+    ],
+    "targetUrl": "ES"
+  }
+}

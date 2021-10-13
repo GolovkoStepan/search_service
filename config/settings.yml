@@ -1,0 +1,6 @@
+wildberries_api:
+  url: https://napi.wildberries.ru
+  search_path: /api/search/results
+
+daily_data_load:
+  max_pages_to_search: 4
