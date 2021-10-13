@@ -14,17 +14,9 @@
 #
 #  index_search_results_on_products          (products) USING gin
 #  index_search_results_on_search_phrase_id  (search_phrase_id)
-#
 
 class SearchResult < ApplicationRecord
   belongs_to :search_phrase
 
   validates :products, presence: true
-
-  def self.all_by_product(product)
-    joins(:search_phrase)
-      .where('search_results.products @> ?', "{#{product}}")
-      .select('search_phrases.text as phrase, search_results.created_at as date, ' \
-              "array_position(search_results.products, '#{product}') as position")
-  end
 end

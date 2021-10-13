@@ -1,0 +1,26 @@
+{
+  "ignored_warnings": [
+    {
+      "warning_type": "SQL Injection",
+      "warning_code": 0,
+      "fingerprint": "8a76b0ccbe30a4c7976e9506b31060ea2ae04b38a9ee0f835b6a0576234320cc",
+      "check_name": "SQL",
+      "message": "Possible SQL injection",
+      "file": "app/interactions/find_search_results.rb",
+      "line": 22,
+      "link": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+      "code": "SearchResult.joins(:search_phrase).where(\"search_results.products @> ?\", \"{#{product}}\").select(\"search_phrases.text as phrase, search_results.created_at as date, array_position(search_results.products, '#{product}') as position\")",
+      "render_path": null,
+      "location": {
+        "type": "method",
+        "class": "FindSearchResults",
+        "method": "all_by_product"
+      },
+      "user_input": "product",
+      "confidence": "Medium",
+      "note": ""
+    }
+  ],
+  "updated": "2021-10-14 00:53:18 +0500",
+  "brakeman_version": "5.1.1"
+}
